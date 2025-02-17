@@ -4,10 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && npx playwright install",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "npx playwright install"
+    "lint": "next lint"
   },
   "dependencies": {
     "@crawlee/playwright": "^3.12.2",
